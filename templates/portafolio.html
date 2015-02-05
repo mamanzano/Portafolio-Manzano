@@ -4,91 +4,93 @@
 	<meta charset="UTF-8">
 	<title>Mi Portafolio Online</title>
 	<meta description="En esta pagina se encuentran los proyectos que ha realizado Mario MAnzano">
+	<link rel="stylesheet" type="text/css" href="../static/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../static/css/estilos.css">
 </head>
 <body>
 	<header id="yo" class="Header">
-		<nav>
-			<ul>
-				<li>
-					<a href="#yo">yo</a>
+		<nav class="MainMenu">
+			<ul class="MainMenu-list">
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#yo">yo</a>
 				</li>
-				<li>
-					<a href="#perfil">perfil</a>
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#perfil">perfil</a>
 				</li>
-				<li>
-					<a href="#trabajo">trabajo</a>
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#trabajo">trabajo</a>
 				</li>
-				<li>
-					<a href="#contenido">contenido</a>
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#contenido">contenido</a>
 				</li>
 			</ul>
 		</nav>
-		<figure>
-			<img src="avatar.jpg" alt="Avatar">
-			<figcaption><a href="http://twitter.com/tesidhc" target="_black">@tesidhc</a></figcaption>
+		<figure class="Header-imageContainer">
+			<img src="avatar.jpg" alt="Avatar" class="Header-image" />
+			<figcaption class="Header-imageDescription"><a class="Header-link" href="http://twitter.com/tesidhc" target="_black">@tesidhc</a></figcaption>
 		</figure>
-		<p>Mario Manzano</p>
+		<p class="Header-name">Mario Manzano</p>
 	</header>
-	<section id="perfil">
-		<h2>Mi perfil</h2>
-		<p>Hola! este es mi portafolio de trabajo</p>
-		<a href="http://twitter.com/tesidhc">twitter</a>
-		<a href="https://github.com/mamanzano">Github</a>
+	<section id="perfil" class="Profile" >
+		<h2 class="Profile-title">Mi perfil</h2>
+		<p class="Profile-description">Hola! este es mi portafolio de trabajo</p>
+		<a class="Profile-link" href="http://twitter.com/tesidhc">twitter</a>
+		<a class="Profile-link" href="https://github.com/mamanzano">Github</a>
+		<a class="Profile-link" href="https://github.com/mamanzano">Facebook</a>
 	</section>
-	<section id="trabajo">
-		<h2>Mi trabajo</h2>
-		<article>
-			<figure>
+	<section id="trabajo" class="Work">
+		<h2 class="Work-title">Mi trabajo</h2>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
 				<img src="mehorandola.jpg">
-				<figcaption>website de mario manzano</figcaption>
+				<figcaption class="Work-imageDescription">website de mario manzano</figcaption>
 			</figure>
 		</article>
-			<article>
-			<figure>
+		<article class="Work-item">
+			<figure class="Work-image" class="Work-imageContainer">
 				<img src="mehorandola.jpg">
-				<figcaption>website de mario manzano</figcaption>
-			</figure>
-
-		</article>
-			<article>
-			<figure>
-				<img src="mehorandola.jpg">
-				<figcaption>website de mario manzano</figcaption>
+				<figcaption class="Work-imageDescription">website de mario manzano</figcaption>
 			</figure>
 
 		</article>
-			<article>
-			<figure>
-				<img src="mehorandola.jpg">
-				<figcaption>website de mario manzano</figcaption>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="mehorandola.jpg">
+				<figcaption class="Work-imageDescription">website de mario manzano</figcaption>
 			</figure>
 
 		</article>
-			<article>
-			<figure>
-				<img src="mehorandola.jpg">
-				<figcaption>website de mario manzano</figcaption>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="mehorandola.jpg">
+				<figcaption class="Work-imageDescription">website de mario manzano</figcaption>
 			</figure>
 
 		</article>
-			<article>
-			<figure>
-				<img src="mehorandola.jpg">
-				<figcaption>website de mario manzano</figcaption>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="mehorandola.jpg">
+				<figcaption class="Work-imageDescription">website de mario manzano</figcaption>
+			</figure>
+
+		</article>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="mehorandola.jpg">
+				<figcaption class="Work-imageDescription">website de mario manzano</figcaption>
 			</figure>
 
 		</article>
 	</section>
-	<footer id="contacto">
-		<h3>Contacto</h3>
-		<p>Tienes una sugerencia o quieres trabajat conmigo ponte en contacto</p>
+	<footer id="contacto" class="Footer">
+		<h3 class="Footer-title">Contacto</h3>
+		<p class="Footer-description">Tienes una sugerencia o quieres trabajat conmigo ponte en contacto</p>
 		
-		<form>
-			<input type="text" placeholder="Nombre" />
-			<input type="email" placeholder="Email" />
-			<textarea placeholder="Motivo"></textarea>
-			<button type="submit">Contactarme</button>
+		<form class="Footer-form">
+			<input class="Footer-formInput" type="text" placeholder="Nombre" />
+			<input class="Footer-formInput" type="email" placeholder="Email" />
+			<textarea class="Footer-textArea" placeholder="Motivo"></textarea>
+			<button class="Footer-button" type="submit">Contactarme</button>
 		</form>
 	</footer>
 </html>
