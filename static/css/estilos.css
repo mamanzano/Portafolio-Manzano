@@ -125,7 +125,8 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	margin-bottom: 500px;
+	padding: 2em 0;
+	text-align: center;
 }
 
 .Footer-form
